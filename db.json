@@ -26,6 +26,15 @@
       "interes": "Voluntariado",
       "comentario": "Quiero apoyar la feria rural digital.",
       "fecha": "2026-05-03T14:15:00.000Z"
+    },
+    {
+      "id": "xwlcY3C7yLk",
+      "nombre": "cristian ramirez",
+      "correo": "cr3109867@gmail.com",
+      "telefono": "3257321295",
+      "interes": "Productos agricolas",
+      "comentario": "hola",
+      "fecha": "2026-06-05T02:30:06.427Z"
     }
   ],
   "bugs": [
@@ -38,5 +47,6 @@
       "descripcion": "Este es un ejemplo de registro de bug. El estudiante debe reemplazarlo por sus propios hallazgos.",
       "evidencia": "evidencias/antes/telefono-incompleto.png"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

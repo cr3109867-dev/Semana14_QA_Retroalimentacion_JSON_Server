@@ -12,14 +12,14 @@ Completa esta tabla durante la revision del proyecto. Registra minimo 6 hallazgo
 
 ## Tabla de bugs
 
-| ID | Titulo del bug | Area | Prioridad | Pasos para reproducir | Resultado esperado | Resultado obtenido | Evidencia | Correccion aplicada | Estado |
-|---|---|---|---|---|---|---|---|---|---|
-| BUG-001 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
-| BUG-002 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
-| BUG-003 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
-| BUG-004 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
-| BUG-005 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
-| BUG-006 |  |  | Alta / Media / Baja |  |  |  | evidencias/antes/ |  | Pendiente / Corregido |
+|ID|Título|Prioridad|Problema|
+|BUG-001|La tabla no se actualiza al guardar|Alta|"Al guardar un visitante| el usuario no ve el cambio hasta recargar la página|"
+|BUG-002|Validación de correo débil|Media|"Solo verifica que exista un ""@"", permitiendo correos como ""a@""."|
+|BUG-003|Falta validación mínima en comentarios|Media|"El comentario es obligatorio pero no tiene longitud mínima; un punto ""."" es válido."|
+|BUG-004|El teléfono no valida formato colombiano|Media|"El código acepta números muy cortos (ej. ""123"") aunque la validación pide 7, no es suficiente."|
+
+|BUG-005|Falta atributo alt en imágenes|Baja|Las imágenes del proyecto carecen de accesibilidad para lectores de pantalla.|
+|BUG-006|Contraste de colores en formulario|Baja|El color de texto en los estados de error puede ser difícil de leer.|
 
 ## Ejemplo de redaccion
 
